@@ -1,0 +1,25 @@
+
+# Python virtual environments
+.venv/
+.venv-1/
+venv/
+**/venv/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+
+# Generated outputs
+output/
+
+# Datasets - keep local unless sharing is permitted
+dataset/
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
